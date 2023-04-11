@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#frmContact {
+    padding: 40px 20px;
+    box-shadow: 4px 4px 10px 4px #EEEEEE;
+}
+
+#frmContact p {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+
+input {
+    border: 1px solid #EEEEEE;
+    padding: 10px 20px;
+    outline-color: dodgerblue;
+}
+
+.btnSend {
+    background-color: dodgerblue;
+    color: #F9F9F9;
+    cursor: pointer;
+}

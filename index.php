@@ -5,19 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="export-excel-file.php" method="post" target="_blank">
+    <form id="frmContact" action="export-excel-file.php" method="post" target="_blank">
         <p>
-            <label for="name">Name</label>
-            <input type="text" name="name" id="name">
+            <input type="text" name="name" id="name" placeholder="Name">
         </p>
         <p>
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" placeholder="Email">
         </p>
         <p>
-            <input type="submit" value="Send">
+            <input type="submit" class="btnSend" value="Send">
         </p>
     </form>
 </body>
